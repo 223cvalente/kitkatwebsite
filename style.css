@@ -37,9 +37,7 @@ h4 {
 .container-fluid {
   padding: 60px 50px;
 }
-.bg-grey {
-  background-color: #f6f6f6;
-}
+
 .logo-small {
   color: #f41e1e;
   font-size: 50px;
@@ -88,12 +86,11 @@ h4 {
 }
 .panel-footer .btn:hover {
   border: 1px solid #f4511e;
-  background-color: #fff !important;
+ 
   color: #f4511e;
 }
 .panel-heading {
-  color: #fff !important;
-  background-color: #f4511e !important;
+
   padding: 25px;
   border-bottom: 1px solid transparent;
   border-top-left-radius: 0px;
@@ -187,19 +184,6 @@ footer .glyphicon {
   }
 }
 
-
-.carousel-inner img {
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-}
-.carousel-caption h3 {
-  color: #fff !important;
-}
-@media (max-width: 600px) {
-  .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-  }
-}
 .bg-cover {
   background-size: cover !important;
 }
